@@ -2,7 +2,7 @@ import Logo from '../assets/images/Neossa-logo-1.svg';
 import { FaMoon } from 'react-icons/fa';
 import { Fragment } from 'react';
 import { HashLink } from 'react-router-hash-link';
-import links from '../utils/navLinks';
+import navLinks from '../utils/links';
 
 const Navbar = () => {
   return (

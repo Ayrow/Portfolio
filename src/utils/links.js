@@ -1,4 +1,4 @@
-const links = [
+const navLinks = [
   {
     id: 1,
     text: 'case studies',
@@ -16,4 +16,13 @@ const links = [
   },
 ];
 
-export default links;
+const projectLinks = [
+  {
+    id: 1,
+    title: 'Jobify',
+    text: 'case studies',
+    path: '/',
+  },
+];
+
+export default { navLinks, projectLinks };
