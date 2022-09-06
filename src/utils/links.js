@@ -19,10 +19,11 @@ const navLinks = [
 const projectLinks = [
   {
     id: 1,
-    title: 'Jobify',
-    text: 'case studies',
+    title: 'Ceresa Redesign',
+    text: 'Leader in bathroom furniture since 1983',
+    imageLink: require('../assets/images/test-image.png'),
     path: '/',
   },
 ];
 
-export default { navLinks, projectLinks };
+export { navLinks, projectLinks };
