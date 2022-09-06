@@ -3,17 +3,20 @@ import HeroImg from '../assets/images/undraw_work_in_progress_re_byic.svg';
 
 const Hero = () => {
   return (
-    <header className=' mx-5 mt-10'>
-      <div className=' grid grid-cols-2 bg'>
-        <div className=' '>
+    <header className='px-5 py-10'>
+      <div className='md:grid grid-cols-2 items-center'>
+        <div className=' text-center'>
           <h1 className=' text-6xl font-bold'>Aymeric Pilaert</h1>
-          <p className=' text-xl'>Front-end Developper</p>
+          <p className=' text-xl py-5'>Front-end Developper</p>
           <Link to='/' className='btn btn-hero'>
             About Me
           </Link>
         </div>
-
-        <img src={HeroImg} alt='developer' className='img main-img' />
+        <div className=' flex justify-center invisible md:visible'>
+          <div className='w-1/2'>
+            <img src={HeroImg} alt='developer' className='' />
+          </div>
+        </div>
       </div>
     </header>
   );

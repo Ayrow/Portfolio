@@ -6,6 +6,7 @@ import { Hero, Navbar, Footer } from './component';
 
 import Contact from './pages/Contact';
 import About from './pages/About';
+import CaseStudies from './pages/CaseStudies';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <CaseStudies />
       <Contact />
       <Footer />
     </Fragment>

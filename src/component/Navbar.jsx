@@ -11,10 +11,10 @@ const Navbar = () => {
         <div className='flex place-items-center'>
           <div className=' w-1/4'>
             <HashLink smooth to='/#top'>
-              <img className='logo' src={Logo} alt='logo' />
+              <img className=' w-14 md:w-20 lg:w-28' src={Logo} alt='logo' />
             </HashLink>
           </div>
-          <div className='flex gap-5'>
+          <div className='flex gap-5 w-full justify-end'>
             <HashLink smooth to='/#casestudies'>
               Case Studies
             </HashLink>
