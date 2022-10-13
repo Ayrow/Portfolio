@@ -46,6 +46,7 @@
     "-": "^0.0.1",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "@types/react-router-hash-link": "^2.4.5",
     "autoprefixer": "^10.4.7",
     "init": "^0.1.2",
     "npx": "^10.2.2",

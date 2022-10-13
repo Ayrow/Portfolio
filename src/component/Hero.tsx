@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import HeroImg from '../assets/images/undraw_work_in_progress_re_byic.svg';
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <header className='px-5 hero-bg full-page flex'>
       <div className='grid md:grid-cols-2 items-center'>

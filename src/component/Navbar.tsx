@@ -2,9 +2,9 @@ import Logo from '../assets/images/Neossa-logo-1.svg';
 import { FaMoon } from 'react-icons/fa';
 import { Fragment } from 'react';
 import { HashLink } from 'react-router-hash-link';
-import navLinks from '../utils/links';
+// import navLinks from '../utils/links';
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <Fragment>
       <nav className=' p-5 hero-bg'>
