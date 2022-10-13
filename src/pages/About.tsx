@@ -1,4 +1,6 @@
-const About = () => {
+import React from 'react';
+
+const About: React.FC = () => {
   return (
     <div className=' mt-10 container' id='about'>
       <h2 className=' text-5xl text-center'>About page</h2>

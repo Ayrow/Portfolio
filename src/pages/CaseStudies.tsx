@@ -1,7 +1,7 @@
 import { projectLinks as links } from '../utils/links';
 import { Link } from 'react-router-dom';
 
-const CaseStudies = () => {
+const CaseStudies: React.FC = () => {
   return (
     <div className='mt-10'>
       <h2 className=' text-5xl text-center'>Case Studies</h2>
