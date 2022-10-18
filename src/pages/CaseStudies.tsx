@@ -10,11 +10,10 @@ const CaseStudies: React.FC = () => {
       <h3 className='text-center text-xl'>Latest projects</h3>
       <div className='flex flex-col '>
         {links.map((link) => {
-          const { id, title, text, imageLink, path } = link;
+          const { id, title, text, imageLink, path, github } = link;
           return (
             <div className='flex'>
-              <a
-                href={path}
+              <div
                 key={id}
                 className=' my-16 shadow-xl shadow-slate-800 '
                 style={{
@@ -29,10 +28,19 @@ const CaseStudies: React.FC = () => {
                   <div className='w-full h-full flex flex-col place-items-center place-content-center lg:hover:scale-110 ease-in-out lg:hover:ease-in-out transition-transform duration-500'>
                     <h3 className=' text-5xl'> {title} </h3>
                     <p className='py-5'> {text} </p>
-                    <button className='btn'>Check it out</button>
+                    <div className='flex flex-wrap gap-5'>
+                      <a href={path} className='btn'>
+                        Check it out
+                      </a>
+                      {github && (
+                        <a href={github} className='btn'>
+                          Github page
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
           );
         })}

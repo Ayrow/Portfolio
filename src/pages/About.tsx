@@ -1,14 +1,6 @@
 import React, { useState } from 'react';
 
 const About: React.FC = () => {
-  // const initialState = {
-  //   shortest: true,
-  //   short: false,
-  //   normal: false,
-  //   long: false,
-  //   longest: false,
-  // };
-
   const [toggleTab, setTogleTab] = useState<any>({ shortest: true });
   const [activeToggle, setActiveToggle] = useState('');
 
@@ -16,7 +8,7 @@ const About: React.FC = () => {
     e.preventDefault();
     const name = e.target.name;
     setTogleTab({ [name]: true });
-    setActiveToggle('active: text-red-800');
+    setActiveToggle('active: text-blue-900');
   };
 
   return (
@@ -25,7 +17,7 @@ const About: React.FC = () => {
       <div className='p-10 grid grid-cols-1 md:grid-cols-2 items-center gap-5'>
         <div className=''>
           <h3>The perfect way to learn more about me</h3>
-          <ul className='px-2 mt-5 flex justify-between border border-black '>
+          <div className='border border-black p-2 flex justify-between'>
             <button
               type='button'
               name='shortest'
@@ -61,7 +53,8 @@ const About: React.FC = () => {
               className={toggleTab.longest && `${activeToggle}`}>
               Longest
             </button>
-          </ul>
+          </div>
+
           <div>
             {toggleTab.shortest && (
               <p className='border border-black p-2'>This is a shortest text</p>
