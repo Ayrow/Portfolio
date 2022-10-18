@@ -31,7 +31,7 @@ const projectLinks = [
     text: 'Personal freelance website made using Wordpress',
     imageLink:
       'https://www.depreux-construction.com/wp-content/uploads/2021/02/salon-constructeur-maison-individuelle.jpg',
-    path: '/',
+    path: 'https://www.neossa.com',
   },
 ];
 

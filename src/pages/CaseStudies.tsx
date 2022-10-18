@@ -1,10 +1,11 @@
 import { projectLinks as links } from '../utils/links';
-import { Link } from 'react-router-dom';
 
 const CaseStudies: React.FC = () => {
   return (
     <div className='mt-10 container flex flex-col w-3/4 lg:w-3/5'>
-      <h2 className=' text-5xl text-center'>Case Studies</h2>
+      <h2 className=' text-5xl text-center' id='casestudies'>
+        Case Studies
+      </h2>
 
       <h3 className='text-center text-xl'>Latest projects</h3>
       <div className='flex flex-col '>
@@ -12,8 +13,8 @@ const CaseStudies: React.FC = () => {
           const { id, title, text, imageLink, path } = link;
           return (
             <div className='flex'>
-              <Link
-                to={path}
+              <a
+                href={path}
                 key={id}
                 className=' my-16 shadow-xl shadow-slate-800 '
                 style={{
@@ -31,7 +32,7 @@ const CaseStudies: React.FC = () => {
                     <button className='btn'>Check it out</button>
                   </div>
                 </div>
-              </Link>
+              </a>
             </div>
           );
         })}
