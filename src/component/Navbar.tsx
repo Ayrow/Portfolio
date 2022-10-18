@@ -24,9 +24,9 @@ const Navbar: React.FC = () => {
             <HashLink smooth to='/#contact'>
               Contact
             </HashLink>
-            <button type='button'>
+            {/* <button type='button'>
               <FaMoon />
-            </button>
+            </button> */}
           </div>
         </div>
       </nav>

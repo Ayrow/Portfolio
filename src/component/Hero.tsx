@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       <div className='grid md:grid-cols-2 items-center'>
         <div className=' text-center'>
           <h1 className=' text-7xl font-bold'>Aymeric Pilaert</h1>
-          <p className=' text-xl py-5'>Front-end Developper</p>
+          <p className=' text-xl py-5'>Front-end Developper, ReactJS</p>
           <Link to='/' className='btn btn-hero'>
             About Me
           </Link>
