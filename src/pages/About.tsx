@@ -13,7 +13,7 @@ const About: React.FC = () => {
 
   return (
     <div className=' mt-10 container' id='about'>
-      <h2 className=' text-5xl text-center'>About page</h2>
+      <h2 className=' text-5xl text-center'>About</h2>
       <div className='p-10 grid grid-cols-1 md:grid-cols-2 items-center gap-5'>
         <div className=''>
           <h3>The perfect way to learn more about me</h3>
