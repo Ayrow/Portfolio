@@ -17,7 +17,7 @@ const About: React.FC = () => {
       <div className='p-10 grid grid-cols-1 md:grid-cols-2 items-center gap-5'>
         <div className=''>
           <h3>The perfect way to learn more about me</h3>
-          <div className='border border-black p-2 flex justify-between'>
+          <div className='border border-black p-2 flex justify-between rounded-t-lg'>
             <button
               type='button'
               name='shortest'
@@ -55,24 +55,16 @@ const About: React.FC = () => {
             </button>
           </div>
 
-          <div>
+          <div className='border border-black rounded-b-lg'>
             {toggleTab.shortest && (
-              <p className='border border-black p-2'>This is a shortest text</p>
+              <p className=' p-2'>This is a shortest text</p>
             )}
-            {toggleTab.short && (
-              <p className='border border-black p-2'>This is a short text</p>
-            )}
+            {toggleTab.short && <p className='p-2'>This is a short text</p>}
 
-            {toggleTab.normal && (
-              <p className='border border-black p-2'>This is a normal text</p>
-            )}
+            {toggleTab.normal && <p className='p-2'>This is a normal text</p>}
 
-            {toggleTab.long && (
-              <p className='border border-black p-2'>This is a long text</p>
-            )}
-            {toggleTab.longest && (
-              <p className='border border-black p-2'>This is a longest text</p>
-            )}
+            {toggleTab.long && <p className='p-2'>This is a long text</p>}
+            {toggleTab.longest && <p className='p-2'>This is a longest text</p>}
           </div>
         </div>
         <div className='flex justify-center'>
