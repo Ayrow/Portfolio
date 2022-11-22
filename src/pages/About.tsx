@@ -4,10 +4,10 @@ const About: React.FC = () => {
   const [toggleTab, setTogleTab] = useState<any>({ shortest: true });
   const [activeToggle, setActiveToggle] = useState('');
 
-  const handleToggle = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+  const handleToggle = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    const name = e.target.name;
-    setTogleTab({ [name]: true });
+    const button: HTMLButtonElement = e.currentTarget;
+    setTogleTab({ [button.name]: true });
     setActiveToggle('active: text-blue-900');
   };
 
