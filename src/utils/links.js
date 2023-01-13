@@ -1,3 +1,5 @@
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+
 const navLinks = [
   {
     id: 1,
@@ -46,4 +48,19 @@ const projectLinks = [
   },
 ];
 
-export { navLinks, projectLinks };
+const socialLinks = [
+  {
+    id: 1,
+    text: 'Github',
+    path: 'https://github.com/Ayrow',
+    icon: <FaGithub />,
+  },
+  {
+    id: 2,
+    text: 'Linkedin',
+    path: 'https://www.linkedin.com/in/aymeric-pilaert-a53b6498/',
+    icon: <FaLinkedin />,
+  },
+];
+
+export { navLinks, projectLinks, socialLinks };
