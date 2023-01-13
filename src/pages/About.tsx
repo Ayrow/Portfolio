@@ -13,7 +13,7 @@ const About: React.FC = () => {
 
   return (
     <div className=' mt-10 container' id='about'>
-      <h2 className=' text-5xl text-center'>About</h2>
+      <h2 className=' text-5xl text-center'>About Me</h2>
       <div className='p-10 grid grid-cols-1 md:grid-cols-2 items-center gap-5'>
         <div className=''>
           <h3>The perfect way to learn more about me</h3>
@@ -68,7 +68,11 @@ const About: React.FC = () => {
           </div>
         </div>
         <div className='flex justify-center'>
-          <img alt='profile pic' className='' />
+          <img
+            src='https://media.licdn.com/dms/image/D4E03AQGJDhdyXlpvPA/profile-displayphoto-shrink_800_800/0/1671820027220?e=1678924800&v=beta&t=myCEAI8kkig5dE1Y2Qu5S3cdngoTOcQ4KDDXgS5kn6w'
+            alt='profile pic'
+            className=' w-1/2 rounded-2xl shadow-lg'
+          />
         </div>
       </div>
     </div>
