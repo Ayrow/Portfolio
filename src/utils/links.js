@@ -21,6 +21,15 @@ const navLinks = [
 const projectLinks = [
   {
     id: 1,
+    title: 'Meal Planner',
+    text: 'Personal iOS project to plan meals for the week',
+    imageLink:
+      'https://www.depreux-construction.com/wp-content/uploads/2021/02/salon-constructeur-maison-individuelle.jpg',
+    path: '/',
+    github: 'https://github.com/Ayrow/MealPlanner',
+  },
+  {
+    id: 2,
     title: 'Tripia',
     text: 'Web app to share travel experiences using express for backend. Built with ReactJS',
     imageLink:
@@ -29,7 +38,7 @@ const projectLinks = [
     github: 'https://github.com/Ayrow/tripia',
   },
   {
-    id: 2,
+    id: 3,
     title: 'TodoList',
     text: 'Really simple todolist with account and using firebase. Built with ReactJS',
     imageLink:
@@ -38,7 +47,7 @@ const projectLinks = [
     github: 'https://github.com/Ayrow/TodoList',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Neossa',
     text: 'Personal freelance website made using Wordpress',
     imageLink:
