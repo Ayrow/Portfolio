@@ -91,8 +91,7 @@ const About: React.FC = () => {
                 <br />
                 <br />
                 In 2023, I still build React apps but I also started learning to
-                build mobile apps. I focus on Swift(using swiftUi) for now but
-                also some React Native.
+                build mobile apps. I focus mainly on iOS(using swiftUi) for now.
               </p>
             )}
 
@@ -119,21 +118,18 @@ const About: React.FC = () => {
                 willing to always learn more. Now I can build web apps using
                 styled components, TailwindCSS, NodeJS, MongoDB, ExpressJS,
                 Firebase... <br />
-                Leanrt unit testing using Jest and tried Typescript (not a real
+                Learnt unit testing using Jest and tried Typescript (not a real
                 success I have to say)
                 <br />
                 <br />
                 In 2023, I still practice and build React apps but I also learn
-                how to build mobile apps. I focus mainly on Swift(using swiftUi)
-                but also a bit of React Native.
+                how to build mobile apps. I focus mainly on iOS(using swiftUi)
+                for now.
               </p>
             )}
 
             {toggleTab.longest && (
               <p className='p-2'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Just
-                kidding, this is a real presentation! <br />
-                <br />
                 Hello and welcome to my Portfolio! <br />
                 I'm Aymeric, 29, and I recently fell in love with coding (2022).
                 I first learned HTML and CSS in 2011 and then moved to using
@@ -160,8 +156,8 @@ const About: React.FC = () => {
                 and tried to learn typescript (not great so far).
                 <br />
                 <br />
-                Since December 2022, I'm learning to build mobile apps focusing
-                primarily on Swift (and SwiftUI) but also React Native for
+                Since January 2023, I'm learning to build mobile apps focusing
+                primarily on iOS (using SwiftUI) and tried out React Native for
                 cross-platform. All this still building and developing react
                 projects.
                 <br />
