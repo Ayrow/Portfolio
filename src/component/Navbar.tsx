@@ -7,7 +7,7 @@ import { HashLink } from 'react-router-hash-link';
 const Navbar: React.FC = () => {
   return (
     <Fragment>
-      <nav className=' p-5 hero-bg'>
+      <nav className=' p-5 hero-bg fixed w-full'>
         <div className='flex place-items-center'>
           <div className=' w-1/4'>
             <HashLink smooth to='/#top'>
