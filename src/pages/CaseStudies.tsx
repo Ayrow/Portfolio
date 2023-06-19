@@ -2,19 +2,18 @@ import { projectLinks as links } from '../utils/links';
 
 const CaseStudies: React.FC = () => {
   return (
-    <div className='mt-10 w-full flex flex-col'>
+    <div className='bg-gray-300 pt-10 w-full flex flex-col'>
       <h2 className=' text-5xl text-center' id='casestudies'>
         Case Studies
       </h2>
 
       <h3 className='text-center text-xl'>Latest projects</h3>
-      <div className='flex flex-col w-full h-full rounded-xl'>
+      <div className='flex flex-col w-full h-full '>
         {links.map((link) => {
           const { id, title, text, imageLink, path, github } = link;
           return (
-            <div className='flex w-3/4 lg:w-3/5 h-1/5 self-center '>
+            <div key={id} className='flex w-3/4 lg:w-3/5 h-1/5 self-center '>
               <div
-                key={id}
                 className=' my-16 shadow-xl shadow-slate-800 '
                 style={{
                   backgroundImage: `url('${imageLink}')`,
