@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const Hero: React.FC = () => {
   return (
-    <header className='px-5 hero-bg full-page flex'>
+    <header className='px-5 hero-bg full-page flex pt-40 md:pt-0'>
       <div className='grid md:grid-cols-2 items-center'>
         <div className=' text-center'>
           <h1 className=' text-5xl font-bold'>

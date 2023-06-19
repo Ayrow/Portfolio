@@ -181,6 +181,7 @@ const About: React.FC = () => {
             </div>
           </div>
         </div>
+
         <div className='flex justify-center'>
           <img
             src='https://media.licdn.com/dms/image/D4E03AQGJDhdyXlpvPA/profile-displayphoto-shrink_800_800/0/1671820027220?e=1678924800&v=beta&t=myCEAI8kkig5dE1Y2Qu5S3cdngoTOcQ4KDDXgS5kn6w'
