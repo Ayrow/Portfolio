@@ -21,35 +21,44 @@ const navLinks = [
 const projectLinks = [
   {
     id: 1,
+    title: 'Nextimmo',
+    text: 'Real estate agency with listings management. Built with nextJS',
+    imageLink:
+      'https://www.depreux-construction.com/wp-content/uploads/2021/02/salon-constructeur-maison-individuelle.jpg',
+    path: '/',
+    github: 'https://github.com/Ayrow/nextimmo',
+  },
+  {
+    id: 2,
     title: 'Meal Planner',
-    text: 'Personal iOS project to plan meals for the week',
+    text: 'Personal iOS project to plan meals for the week. Built with SwiftUI.',
     imageLink:
       'https://www.depreux-construction.com/wp-content/uploads/2021/02/salon-constructeur-maison-individuelle.jpg',
     path: '/',
     github: 'https://github.com/Ayrow/MealPlanner',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Tripia',
-    text: 'Web app to share travel experiences using express for backend. Built with ReactJS',
+    text: 'Web app to share travel experiences using express for backend. Built with ReactJS.',
     imageLink:
       'https://www.depreux-construction.com/wp-content/uploads/2021/02/salon-constructeur-maison-individuelle.jpg',
     path: '/',
     github: 'https://github.com/Ayrow/tripia',
   },
   {
-    id: 3,
+    id: 4,
     title: 'TodoList',
-    text: 'Really simple todolist with account and using firebase. Built with ReactJS',
+    text: 'Really simple todolist with account and using firebase. Built with ReactJS.',
     imageLink:
       'https://www.depreux-construction.com/wp-content/uploads/2021/02/salon-constructeur-maison-individuelle.jpg',
     path: '/',
     github: 'https://github.com/Ayrow/TodoList',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Neossa',
-    text: 'Personal freelance website made using Wordpress',
+    text: 'Personal freelance website made using Wordpress.',
     imageLink:
       'https://www.depreux-construction.com/wp-content/uploads/2021/02/salon-constructeur-maison-individuelle.jpg',
     path: 'https://www.neossa.com',
